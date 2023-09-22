@@ -2,6 +2,8 @@
   --dark-blue: #252f3d;
   --green: #85BF55;
   --white: #FFFFFF;
+  --gris: #4D5254;
+  --black: #000000;
 
   --manrope: 'Manrope', sans-serif;
 
@@ -23,6 +25,14 @@ img {
 
 .clr-white {
   color: var(--white);
+}
+
+.clr-gris {
+  color: var(--gris);
+}
+
+.clr-black {
+  color: var(--black);
 }
 
 .bg-dark-blue {

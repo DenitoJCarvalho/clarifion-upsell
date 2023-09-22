@@ -71,7 +71,7 @@ iconify-icon {
   }
 }
 
-@media screen and (width > 1023px) {
+@media screen and (width >=64rem) {
   :is(.frame_1000004787, .frame_1484578058) {
     padding-left: 4.5rem;
     padding-right: 4.5rem;
