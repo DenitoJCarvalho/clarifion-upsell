@@ -1,0 +1,34 @@
+:root {
+  --dark-blue: #252f3d;
+  --green: #85BF55;
+  --white: #FFFFFF;
+
+  --manrope: 'Manrope', sans-serif;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: var(--manrope);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 1500px;
+}
+
+.clr-white {
+  color: var(--white);
+}
+
+.bg-dark-blue {
+  background-color: var(--dark-blue);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}

@@ -1,0 +1,39 @@
+header {
+  border: 1px solid;
+  width: 100%;
+  height: auto;
+}
+
+:is(.frame_1000004787, .frame_1484578058) {
+  width: 100%;
+  height: auto;
+}
+
+.frame_1000004787 {
+  padding: 0.625rem 1.25rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.layer>p {
+  font-family: var(--manrope);
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  display: flex;
+  align-items: center;
+}
+
+:is(.l1):where(span) {
+  border: 1px solid;
+}
+
+.layer>p:where(.l2, .l3, .l4) {
+  display: none;
+}
+
+iconify-icon {
+  margin-right: 0.5rem;
+  font-size: 1.375rem;
+}
