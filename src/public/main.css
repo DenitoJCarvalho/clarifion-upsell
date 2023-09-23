@@ -1,5 +1,4 @@
 .frame_1484578063 {
-  background-color: yellow;
   width: 100%;
   height: auto;
   padding: 0 1.25rem;
@@ -29,6 +28,7 @@
   text-align: center;
 }
 
+/* > 600px*/
 @media screen and (width > 37.5rem) {
   .frame_1484578063 {
     padding-left: 3.96rem;
@@ -36,6 +36,7 @@
   }
 }
 
+/* >= 1024px */
 @media screen and (width >=64rem) {
   .frame_1484578063 {
     padding-left: 4.5rem;

@@ -4,6 +4,7 @@
   --white: #FFFFFF;
   --gris: #4D5254;
   --black: #000000;
+  --blue: #2C7EF8;
 
   --manrope: 'Manrope', sans-serif;
 
@@ -15,6 +16,11 @@
   box-sizing: border-box;
   font-size: 16px;
   font-family: var(--manrope);
+}
+
+body {
+  background-color: var(--white);
+  counter-reset: enumerar;
 }
 
 img {
@@ -35,8 +41,20 @@ img {
   color: var(--black);
 }
 
+.clr-green {
+  color: var(--green);
+}
+
+.clr-blue {
+  color: var(--blue);
+}
+
 .bg-dark-blue {
   background-color: var(--dark-blue);
+}
+
+.bg-blue {
+  background-color: var(--blue);
 }
 
 .uppercase {
