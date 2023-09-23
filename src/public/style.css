@@ -8,6 +8,7 @@
   --black: #000000;
   --blue: #2C7EF8;
   --blue-gris: #37465A;
+  --blue-white: #EDF3FD;
   --yellow: #FFC000;
 
   --manrope: 'Manrope', sans-serif;
@@ -71,6 +72,10 @@ img {
 
 .bg-blue {
   background-color: var(--blue);
+}
+
+.bg-blue-white {
+  background-color: var(--blue-white);
 }
 
 .bg-ice {
