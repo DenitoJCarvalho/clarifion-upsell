@@ -2,9 +2,13 @@
   --dark-blue: #252f3d;
   --green: #85BF55;
   --white: #FFFFFF;
+  --ice: #E3EEFF;
   --gris: #4D5254;
+  --light-gris: #969696;
   --black: #000000;
   --blue: #2C7EF8;
+  --blue-gris: #37465A;
+  --yellow: #FFC000;
 
   --manrope: 'Manrope', sans-serif;
 
@@ -37,6 +41,10 @@ img {
   color: var(--gris);
 }
 
+.clr-light-gris {
+  color: var(--light-gris);
+}
+
 .clr-black {
   color: var(--black);
 }
@@ -49,12 +57,24 @@ img {
   color: var(--blue);
 }
 
+.clr-blue-gris {
+  color: var(--blue-gris);
+}
+
+.clr-yellow {
+  color: var(--yellow);
+}
+
 .bg-dark-blue {
   background-color: var(--dark-blue);
 }
 
 .bg-blue {
   background-color: var(--blue);
+}
+
+.bg-ice {
+  background-color: var(--ice);
 }
 
 .uppercase {
