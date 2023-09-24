@@ -1,10 +1,12 @@
 :root {
   --dark-blue: #252f3d;
   --green: #85BF55;
+  --medium-green: #59AE43;
   --white: #FFFFFF;
   --ice: #E3EEFF;
   --gris: #4D5254;
   --light-gris: #969696;
+  --gray: #CFCFCF;
   --black: #000000;
   --blue: #2C7EF8;
   --blue-gris: #37465A;
@@ -80,6 +82,10 @@ img {
 
 .bg-ice {
   background-color: var(--ice);
+}
+
+.bg-medium-green {
+  background-color: var(--medium-green);
 }
 
 .uppercase {
