@@ -1,3 +1,8 @@
+.offer {
+  border-radius: 0.625rem;
+  margin-top: 2.5rem;
+}
+
 .call {
   margin-top: 1.5rem;
   display: flex;
