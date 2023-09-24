@@ -47,7 +47,7 @@
   font-weight: bold;
 }
 
-/* > 600px*/
+/* >= 1200px*/
 @media screen and (width >=64rem) {
   .frame_1484578044 {
     margin-top: 3.75rem;

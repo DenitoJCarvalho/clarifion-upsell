@@ -26,3 +26,41 @@
    justify-content: center;
    align-items: center;
  }
+
+ @media screen and (width >=37.5rem) {
+   .frame_1484578064 {
+     padding: 0 4.5rem;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+   .frame_1484578065 span {
+     margin: 0 1rem;
+   }
+
+   .frame_1000001268 {
+     margin-top: 0;
+   }
+ }
+
+ /* >= 1024px */
+ @media screen and (width >=64rem) {
+   .frame_1484578064 {
+     padding-left: 4.5rem;
+     padding-right: 4.5rem;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+   }
+
+   .frame_1000001268 p {
+     font-size: 1rem;
+   }
+
+   .frame_1000001268 p iconify-icon {
+     font-size: 1rem;
+   }
+
+ }

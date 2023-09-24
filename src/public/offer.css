@@ -23,3 +23,19 @@
   padding: 0;
   margin-top: 1.5rem;
 }
+
+@media screen and (width >=64rem) {
+  .offer {
+    border: 1px solid;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .offer p {}
+
+  .image-product img {
+    width: 575px;
+    height: 591px;
+  }
+
+}
