@@ -1,6 +1,7 @@
 .frame_1000004689 {
   padding: 0;
   margin-top: 1.5rem;
+  order: 6;
 }
 
 .frame_1000004692 {
@@ -42,11 +43,10 @@
 .frame_1484578062 {
   width: 100%;
   margin-bottom: 0.75rem;
-  ;
   display: flex;
   align-items: center;
   display: flex;
-  justify-content: baseline;
+  justify-content: center;
   align-items: center;
 }
 
@@ -54,6 +54,7 @@
   font-weight: 400;
   font-size: 0.75rem;
   line-height: 1.05rem;
+  /* border: 1px solid; */
 }
 
 .frame_1484578062 p:nth-child(1) {
@@ -98,10 +99,11 @@
   font-weight: 500;
   font-size: 0.75rem;
   line-height: 1rem;
+  text-align: center;
 }
 
 @media screen and (width >=64rem) {
   .frame_1000004689 {
-    order: 6;
+    margin-left: 2.5rem;
   }
 }
