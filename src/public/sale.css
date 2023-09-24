@@ -28,3 +28,11 @@
 .frame_1000004688 div p b {
   font-size: 0.875rem;
 }
+
+/* >=1024px*/
+@media screen and (width>=64rem) {
+  .frame_1000004688 {
+    order: 5;
+    width: 40%;
+  }
+}

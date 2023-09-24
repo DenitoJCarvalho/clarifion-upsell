@@ -32,3 +32,10 @@
   font-size: 1rem;
   text-align: center;
 }
+
+@media screen and (width >=64rem) {
+  .frame_1000004599 {
+    border: 1px solid;
+    order: 4;
+  }
+}

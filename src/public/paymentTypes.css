@@ -99,3 +99,9 @@
   font-size: 0.75rem;
   line-height: 1rem;
 }
+
+@media screen and (width >=64rem) {
+  .frame_1000004689 {
+    order: 6;
+  }
+}

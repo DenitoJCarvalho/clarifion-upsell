@@ -87,3 +87,12 @@
   line-height: 1.05rem;
   text-align: center;
 }
+
+/* >=1024px */
+@media screen and (width >=64rem) {
+  .frame_1484578060 {
+    border: 1px solid;
+    order: 3;
+    width: 40%;
+  }
+}

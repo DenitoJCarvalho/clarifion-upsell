@@ -19,3 +19,9 @@
   font-weight: 700;
   font-size: 0.75rem;
 }
+
+@media screen and (width >=64rem) {
+  .frame_1484578044 {
+    order: 7;
+  }
+}
