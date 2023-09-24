@@ -12,6 +12,7 @@
   --blue-gris: #37465A;
   --blue-white: #EDF3FD;
   --yellow: #FFC000;
+  --red: #F82C2C;
 
   --manrope: 'Manrope', sans-serif;
 
@@ -66,6 +67,10 @@ img {
 
 .clr-yellow {
   color: var(--yellow);
+}
+
+.clr-red {
+  color: var(--red);
 }
 
 .bg-dark-blue {
