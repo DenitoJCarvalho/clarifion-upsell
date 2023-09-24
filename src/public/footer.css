@@ -17,14 +17,19 @@
    align-items: center;
  }
 
- .frame_1000001268 {
+ .frame_lock {
    margin-top: 1rem;
  }
 
- .frame_1000001268 p {
+ .frame_lock p {
    display: flex;
    justify-content: center;
    align-items: center;
+ }
+
+ .frame_lock p iconify-icon {
+   font-size: 0.75rem;
+   margin-top: -0.25rem;
  }
 
  @media screen and (width >=37.5rem) {
@@ -39,10 +44,6 @@
    .frame_1484578065 span {
      margin: 0 1rem;
    }
-
-   .frame_1000001268 {
-     margin-top: 0;
-   }
  }
 
  /* >= 1024px */
@@ -55,11 +56,11 @@
      justify-content: space-between;
    }
 
-   .frame_1000001268 p {
+   .frame_lock p {
      font-size: 1rem;
    }
 
-   .frame_1000001268 p iconify-icon {
+   .frame_lock p iconify-icon {
      font-size: 1rem;
    }
 

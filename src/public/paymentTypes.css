@@ -44,9 +44,7 @@
   width: 100%;
   margin-bottom: 0.75rem;
   display: flex;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -54,7 +52,6 @@
   font-weight: 400;
   font-size: 0.75rem;
   line-height: 1.05rem;
-  /* border: 1px solid; */
 }
 
 .frame_1484578062 p:nth-child(1) {
@@ -67,9 +64,11 @@
 
 .frame_1000001268 {
   margin-right: 0.75rem;
+
 }
 
 .frame_1000001268 iconify-icon {
+  margin-top: 0.25rem;
   font-size: 0.75rem;
 }
 
