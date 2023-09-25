@@ -9,6 +9,7 @@
   --gray: #CFCFCF;
   --light-gray: #FAFAFA;
   --black: #000000;
+  --graphite: #333333;
   --blue: #2C7EF8;
   --blue-gris: #37465A;
   --blue-white: #EDF3FD;
@@ -72,6 +73,10 @@ img {
 
 .clr-red {
   color: var(--red);
+}
+
+.clr-graphite {
+  color: var(--graphite);
 }
 
 .bg-dark-blue {
